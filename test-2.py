@@ -1,6 +1,12 @@
-n = int (input('Введи трехзначное число ' ))
-a =  (n //100) 
-b = (n-100)//10
-c =  (n-100) % 10
-res = a +  b + c
-print (f'Сумма цифр числа {n} = {res} ({a}+{b}+{c})')
+
+
+
+
+
+number = int (input('Введи трехзначное число ' ))
+valueFirst =  (number //100) 
+valueSecond = (number//10) % 10
+valueTree =  (number-100) % 10
+result = valueFirst +  valueSecond + valueTree
+print (f'Сумма цифр числа {number} = {result} ({valueFirst}+{valueSecond}+{valueTree})')
+
